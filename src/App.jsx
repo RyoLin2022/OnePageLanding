@@ -16,10 +16,6 @@ export const scroll = new SmoothScroll('a[href*="#"]', {
 });
 
 const App = () => {
-
-  function getTransactions() {
-    
-  }
   const [landingPageData, setLandingPageData] = useState({});
   useEffect(() => {
     setLandingPageData(JsonData);
