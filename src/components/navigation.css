@@ -1,0 +1,19 @@
+.ForPC,
+.ForMobile {
+    margin-top: 16px;
+    border: 0;
+    background-color: #003C9D;
+    color: #fff;
+    border-radius: 10px;
+}
+
+@media (min-width: 768px) {
+    .ForMobile {
+        margin-top: 16px;
+        border: 0;
+        background-color: #003C9D;
+        color: #fff;
+        border-radius: 10px;
+        display: none;
+    }
+}
